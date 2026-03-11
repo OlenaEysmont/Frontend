@@ -1,0 +1,49 @@
+:root {
+  --primary_ligt: #faf4ea;
+  --primary_dark: #31261a;
+  --accent: #819b57;
+  --secondary_accent: #465929;
+  --secondary_dark: #a18268;
+  --secondary_light: #cfcfbc;
+}
+/* Base */
+ul {
+  list-style: none;
+}
+body{
+    color: var(--primary_dark);
+}
+
+/* button */
+.button {
+  background-color: var(--accent);
+  color: #faf4ea;
+  border-radius: 8px;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--secondary_accent);
+}
+/* hero */
+.nav_link {
+  color: var(--primary_ligt);
+}
+.nav_link:hover {
+  color: var(--accent);
+}
+.hero_title {
+  color: var(--primary_ligt);
+}
+.accent {
+  color: var(--accent);
+}
+/* solution_section */
+.solution {
+  background-color: var(--accent);
+  color: var(--primary_ligt);
+}
+.section_title {
+  color: var(--primary_dark);
+}
